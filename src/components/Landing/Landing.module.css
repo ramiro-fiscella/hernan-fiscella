@@ -1,0 +1,114 @@
+.landing {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 1;
+}
+.left {
+  color: #1a1a1a;
+  text-align: left;
+  background-color: #fff;
+  border: #fff 10px solid;
+  border-radius: 10px 0 0 10px;
+
+  height: 94vh;
+  width: 45%;
+  margin-left: 11px;
+  margin-top: 11px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+.left h1 {
+  font-size: 4.2rem;
+  margin: 0 50px;
+  padding: 0;
+
+  opacity: 1;
+}
+.left p {
+  font-size: 1.8rem;
+  margin: 0 50px;
+  padding: 0;
+}
+
+.social {
+  padding: 15px 0 15px 50px;
+  display: flex;
+  gap: 15px;
+  font-size: small;
+}
+
+.social button {
+  border-radius: 5px;
+  font-size: small;
+}
+
+.downBtn {
+  background-color: #fff;
+  color: #1a1a1a;
+  margin: 90px 0 50px 50px;
+  padding: 0;
+  border: #fff;
+  font-size: 20px;
+}
+.downBtn:not(:hover) {
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+}
+.downBtn:hover {
+  outline: none;
+  border: #fff;
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.right {
+  margin-right: 11px;
+  margin-top: 11px;
+
+  height: 94vh;
+  width: 60%;
+  border: #fff 10px solid;
+  border-radius: 0 10px 10px 0;
+  background-image: url(../../assets/karsten-winegeart-4j5g8KuFA2k-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 750px) {
+  .landing {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    width: 90vw;
+    height: 35vh;
+    border-radius: 10px;
+    margin: 11px;
+    position: absolute;
+    bottom: 11px;
+  }
+  .left h1 {
+    font-size: 3rem;
+  }
+  .left p {
+    font-size: 1.5rem;
+  }
+  .right {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 11px;
+  }
+  .downBtn {
+    margin: 0 11px;
+  }
+}
