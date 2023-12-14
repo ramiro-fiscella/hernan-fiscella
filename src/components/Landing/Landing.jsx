@@ -13,9 +13,8 @@ const Landing = () => {
         <div className={style.social}>
           <button>Ig</button>
           <button>Fb</button>
+          <button className={style.downBtn}>Visit Website</button>
         </div>
-
-        <button className={style.downBtn}>V</button>
       </div>
       <div className={style.right}></div>
     </div>
