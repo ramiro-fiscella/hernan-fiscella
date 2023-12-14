@@ -1,0 +1,30 @@
+.packs {
+  width: 100%;
+  padding: 40px 0 80px 0;
+
+  /* background-image: url(../../assets/cat-han-W_5Eakb1598-unsplash.jpg); */
+
+  background: rgb(66, 66, 66);
+  background: linear-gradient(
+    17deg,
+    rgb(48, 48, 48) 0%,
+    rgba(0, 0, 0, 1) 30%,
+    rgba(41, 41, 41, 1) 100%
+  );
+}
+
+.packsCardContainer {
+  margin: 70px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.viewBtn {
+  background-color: #fff;
+  color: #1a1a1a;
+  border: #1a1a1a;
+  text-transform: uppercase;
+  font-weight: 500;
+}

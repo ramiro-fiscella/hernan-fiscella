@@ -1,0 +1,19 @@
+.footerContainer {
+  height: 99vh;
+  width: 100%;
+}
+.footer {
+  height: 98vh;
+
+  margin: 12px;
+
+  border-radius: 10px;
+
+  background: rgb(37, 37, 37);
+  background: linear-gradient(
+    205deg,
+    rgb(17, 17, 17) 0%,
+    rgba(32, 32, 32, 0.944) 37%,
+    rgb(0, 0, 0) 100%
+  );
+}

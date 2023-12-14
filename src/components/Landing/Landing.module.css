@@ -9,14 +9,19 @@
 .left {
   color: #1a1a1a;
   text-align: left;
-  background-color: #fff;
-  border: #fff 10px solid;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255) 0%,
+    rgba(224, 224, 224, 1) 100%
+  );
+  border: #fff 12px solid;
   border-radius: 10px 0 0 10px;
 
   height: 94vh;
   width: 45%;
-  margin-left: 11px;
-  margin-top: 11px;
+  margin-left: 12px;
+  margin-top: 12px;
 
   display: flex;
   flex-direction: column;
@@ -70,12 +75,14 @@
 }
 
 .right {
-  margin-right: 11px;
-  margin-top: 11px;
+  margin-right: 12px;
+  margin-top: 12px;
 
   height: 94vh;
   width: 60%;
-  border: #fff 10px solid;
+  border: #fff 12px solid;
+
+  border-left: 0;
   border-radius: 0 10px 10px 0;
   background-image: url(../../assets/karsten-winegeart-4j5g8KuFA2k-unsplash.jpg);
   background-position: center;
@@ -93,9 +100,9 @@
     width: 90vw;
     height: 35vh;
     border-radius: 10px;
-    margin: 11px;
+    margin: 12px;
     position: absolute;
-    bottom: 11px;
+    bottom: 12px;
 
     align-items: start;
   }
@@ -113,7 +120,8 @@
   .right {
     width: 90vw;
     border-radius: 10px;
-    margin: 11px;
+    margin: 12px;
+    border-left: 12px;
   }
   .downBtn {
     margin: 0;

@@ -1,0 +1,27 @@
+.featuredCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 400px;
+  margin-bottom: 12px;
+
+  color: #1a1a1a;
+
+  background: rgb(255, 255, 255);
+  border: #fff 12px solid;
+
+  border-radius: 10px;
+}
+
+.featuredCard h2 {
+  color: #1a1a1a;
+}
+.featuredCardImg {
+  width: 40vw;
+  height: 100%;
+  background-image: url("../../assets/saskia-van-manen-34shxWFCAh8-unsplash.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-position: center;
+}
