@@ -4,18 +4,41 @@
   justify-content: space-between;
 
   height: 400px;
-  margin-bottom: 12px;
+  padding: 12px;
 
   color: #1a1a1a;
 
   background: rgb(255, 255, 255);
-  border: #fff 12px solid;
 
+  border-bottom: 1px solid transparent; /* Aplicar solo al borde inferior */
+  border-image: linear-gradient(
+      to right,
+      rgba(37, 37, 37, 0),
+      rgba(44, 44, 44, 1) 36%,
+      rgba(48, 48, 48, 0.9444152661064426) 63%,
+      rgba(38, 38, 38, 0) 96%
+    )
+    1;
   border-radius: 10px;
+}
+
+.featuredCardText {
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  text-align: left;
 }
 
 .featuredCard h2 {
   color: #1a1a1a;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.featuredCard p {
+  font-size: 1.4rem;
 }
 .featuredCardImg {
   width: 40vw;

@@ -11,9 +11,9 @@
   text-align: left;
   background: rgb(255, 255, 255);
   background: linear-gradient(
-    90deg,
-    rgb(255, 255, 255) 0%,
-    rgba(224, 224, 224, 1) 100%
+    14deg,
+    rgb(245, 245, 245) 0%,
+    rgb(255, 255, 255) 100%
   );
   border: #fff 12px solid;
   border-radius: 10px 0 0 10px;
@@ -54,24 +54,22 @@
   height: 36px;
   min-width: 46px;
   font-size: medium;
-  padding: 0;
 }
 
 .downBtn {
-  background-color: #fff;
+  background-color: #ffffff00;
   color: #1a1a1a;
   margin: 0;
+  border: solid 1px #1a1a1a;
 }
 .downBtn:not(:hover) {
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
 }
 .downBtn:hover {
+  background-color: #1a1a1a;
   outline: none;
-  border: #fff;
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
-
-  font-size: 2rem;
-  font-weight: 900;
+  color: #fff;
 }
 
 .right {
