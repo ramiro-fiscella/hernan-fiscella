@@ -2,9 +2,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
 
   height: 400px;
-  padding: 12px;
+  padding: 12rem;
 
   color: #1a1a1a;
 
@@ -36,6 +38,7 @@
   color: #1a1a1a;
   font-size: 3rem;
   font-weight: 700;
+  margin-top: 0;
 }
 .featuredCard p {
   font-size: 1.4rem;
@@ -43,8 +46,18 @@
 .featuredCardImg {
   width: 40vw;
   height: 100%;
-  background-image: url("../../assets/saskia-van-manen-34shxWFCAh8-unsplash.jpg");
+  background-image: url("../../assets/cat-han-W_5Eakb1598-unsplash.jpg");
   background-size: cover;
   border-radius: 10px;
   background-position: center;
+
+  cursor: pointer;
+}
+.workBtn {
+  height: 36px;
+  padding: 0 10px;
+}
+
+.featuredCard:hover .featuredCardImg {
+  box-shadow: 0 0 30px 10px #e6e6e6;
 }

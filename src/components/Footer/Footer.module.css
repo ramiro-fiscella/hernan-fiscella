@@ -1,13 +1,11 @@
-.footerContainer {
+.footer {
   height: 99vh;
   width: 100%;
 }
-.footer {
+.footerContainer {
   height: 98vh;
 
-  margin: 12px;
-
-  border-radius: 10px;
+  margin: 12px 0;
 
   background: rgb(37, 37, 37);
   background: linear-gradient(
@@ -16,4 +14,79 @@
     rgba(32, 32, 32, 0.944) 37%,
     rgb(0, 0, 0) 100%
   );
+}
+.footerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+}
+.footerTop h1 {
+  font-size: 10rem;
+  text-align: left;
+  width: min-content;
+  margin: 0;
+}
+.footerTop p {
+  font-size: 1.7rem;
+  text-align: left;
+  margin: 0 5px;
+}
+.footerImg {
+  background-size: cover;
+  background-image: url(../../assets/seth-reese-2Fb_0y-9CdU-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+
+  height: 400px;
+  width: 45vw;
+}
+
+.footerMiddle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 80px;
+  text-align: left;
+}
+.middleContainer,
+.middleLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+}
+.middleContainer h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.middleLinks a {
+  color: #fff;
+  font-weight: 200;
+}
+
+.footerBottom {
+  border-top: solid 1px #666666;
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 12px 80px;
+}
+
+.developer {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.developer a {
+  font-weight: 300;
+  color: greenyellow;
+  cursor: pointer;
 }
