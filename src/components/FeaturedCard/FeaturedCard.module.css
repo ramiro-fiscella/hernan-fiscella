@@ -61,3 +61,26 @@
 .featuredCard:hover .featuredCardImg {
   box-shadow: 0 0 30px 10px #e6e6e6;
 }
+
+@media (max-width: 1000px) {
+  .featuredCard {
+    padding: 12px 20px;
+  }
+  .featuredCardText {
+    width: auto;
+  }
+  .featuredCard p {
+    font-size: 1rem;
+  }
+
+  .featuredCard h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .featuredCard {
+    flex-direction: column;
+    padding: 12px;
+  }
+}

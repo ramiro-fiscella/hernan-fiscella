@@ -18,7 +18,7 @@ const Footer = () => {
             <div className={style.middleLinks}>
               <h3>Adress</h3>
               <a href="#">
-                Street 564 - 23 <br /> CP7300 <br /> Azul, Buenos Aires,
+                Street 564 - 24 <br /> CP7300 <br /> Azul, Buenos Aires,
                 Argentina
               </a>
             </div>
