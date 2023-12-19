@@ -27,11 +27,13 @@
   text-align: left;
   width: min-content;
   margin: 0;
+  /* color: greenyellow; */
 }
 .footerTop p {
   font-size: 1.7rem;
   text-align: left;
   margin: 0 5px;
+  /* color: greenyellow; */
 }
 .footerImg {
   background-size: cover;
@@ -43,6 +45,8 @@
 
   height: 400px;
   width: 45vw;
+
+  /* box-shadow: 10px 10px 0 greenyellow; */
 }
 
 .footerMiddle {
