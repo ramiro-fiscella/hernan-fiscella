@@ -1,13 +1,13 @@
 import React from "react";
 import Landing from "../../components/Landing/Landing";
-import Featured from "../../components/Featured/Featured";
+import WorkSections from "../../components/WorkSections/WorkSections";
 import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
     <div>
       <Landing />
-      <Featured />
+      <WorkSections />
       <Footer />
     </div>
   );
