@@ -1,0 +1,133 @@
+.workContainer {
+  height: 100vh;
+  width: auto;
+
+  border-radius: 10px;
+
+  margin: 12px;
+
+  background: rgb(195, 195, 195);
+  background: linear-gradient(
+    328deg,
+    rgb(79, 79, 79) 0%,
+    rgb(110, 110, 110) 11%,
+    rgba(48, 48, 48, 1) 37%,
+    rgba(6, 6, 6, 1) 80%,
+    rgba(87, 87, 87, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workText {
+  text-align: left;
+  font-size: 1.1rem;
+  padding: 50px;
+  width: 30%;
+}
+
+.stylesContainer {
+  margin: 12px;
+  width: 90%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wedding {
+  height: 100%;
+  width: 40%;
+}
+.weddingImg {
+  height: 800px;
+  width: 100%;
+
+  margin: auto;
+
+  background-image: url("../../assets/leonardo-miranda-dvF6s1H1x68-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  filter: grayscale(100%);
+}
+.weddingImg:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+  transform: scale(1.05);
+}
+
+.weddingText {
+  background-color: #1a1a1a9a;
+  color: #fff;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  font-size: 2rem;
+}
+.weddingText p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 10px;
+}
+.weddingText h2 {
+  margin: 10px;
+}
+
+.business {
+  height: 100%;
+  width: 40%;
+}
+.businessImg {
+  height: 800px;
+  width: 100%;
+
+  margin: auto;
+
+  background-image: url("../../assets/pascal-brauer-ttdio_nOPjQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  filter: grayscale(100%);
+}
+.businessImg:hover {
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+  transform: scale(1.05);
+}
+.businessText {
+  background-color: #1a1a1a9a;
+  color: #fff;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  font-size: 2rem;
+}
+.businessText p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  margin: 10px;
+}
+.businessText h2 {
+  margin: 10px;
+}
