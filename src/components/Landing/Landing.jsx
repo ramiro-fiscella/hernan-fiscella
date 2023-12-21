@@ -11,8 +11,12 @@ const Landing = () => {
         <p>Photographer and Videographer</p>
 
         <div className={style.social}>
-          <button>Ig</button>
-          <button>Fb</button>
+          <a target="_blank" href="https://www.instagram.com/">
+            Ig
+          </a>
+          <a target="_blank" href="https://www.facebook.com/">
+            Fb
+          </a>
           <button className={style.downBtn}>Visit Website</button>
         </div>
       </div>

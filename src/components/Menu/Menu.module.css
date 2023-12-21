@@ -1,44 +1,55 @@
 .overlay {
   position: fixed;
   top: 0;
-  right: 0;
-  background: rgb(66, 66, 66);
+  left: 0;
+  background: rgb(255, 255, 255);
   background: linear-gradient(
-    90deg,
-    rgba(66, 66, 66, 0) 0%,
-    rgba(41, 41, 41, 1) 100%
+    14deg,
+    rgb(245, 245, 245) 0%,
+    rgb(255, 255, 255) 100%
   );
-  width: 100vw;
+
+  width: 100%;
   height: 100vh;
 
-  padding: 20px 12px;
-
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 1s;
+  z-index: 999;
+
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
+.overlay.visible {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .menu {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(90deg, rgba(66, 66, 66, 0) 0%, rgb(0, 0, 0) 100%);
+  background: rgb(37, 37, 37);
+  background: linear-gradient(
+    205deg,
+    rgb(17, 17, 17) 0%,
+    rgba(32, 32, 32) 37%,
+    rgb(0, 0, 0) 100%
+  );
 
-  z-index: 1000;
+  z-index: 10000;
   width: 60%;
-  height: 94vh;
+  height: 95vh;
 
-  border-radius: 10px;
-  padding: 11px;
+  border-radius: 0 10px 10px 0;
+  padding: 12px;
+  padding-left: 80px;
   font-size: 7vw;
   position: absolute;
-  right: 0;
+  right: 12px;
   top: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  align-items: flex-start;
 }
 
 .menu a {
@@ -57,6 +68,62 @@
 
 .menu a:last-child {
   margin-bottom: 0;
+}
+
+.left {
+  color: #1a1a1a;
+  text-align: left;
+  background: rgb(255, 255, 255);
+  border-radius: 10px 0 0 10px;
+
+  padding: 12px;
+
+  height: 95vh;
+  width: 40%;
+
+  position: fixed;
+  left: 12px;
+  top: 12px;
+  z-index: 1000;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.left h1 {
+  font-size: 4.2rem;
+  margin: 200px 50px 0 50px;
+  padding: 0;
+
+  opacity: 1;
+}
+.left p {
+  font-size: 1.8rem;
+  margin: 0 50px;
+  padding: 0;
+}
+
+.social {
+  padding: 15px 0 15px 50px;
+  display: flex;
+  gap: 15px;
+  font-size: small;
+}
+
+.social a {
+  border-radius: 5px;
+  height: 36px;
+  min-width: 46px;
+  font-size: medium;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  background-color: #1a1a1a;
 }
 
 @media screen and (max-width: 750px) {
