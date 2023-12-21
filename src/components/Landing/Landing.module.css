@@ -9,12 +9,7 @@
 .left {
   color: #1a1a1a;
   text-align: left;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    14deg,
-    rgb(245, 245, 245) 0%,
-    rgb(255, 255, 255) 100%
-  );
+  background: #ffffff;
   border: #fff 12px solid;
   border-radius: 10px 0 0 10px;
 

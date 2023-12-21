@@ -5,7 +5,13 @@
   display: flex;
   flex-direction: column;
 
-  background-color: #fff;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    205deg,
+    rgb(239, 239, 239) 0%,
+    rgba(255, 255, 255, 0.944) 37%,
+    rgb(240, 240, 240) 100%
+  );
 
   margin: 12px;
   margin-bottom: 0;

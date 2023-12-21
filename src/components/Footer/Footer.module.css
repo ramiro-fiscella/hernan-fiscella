@@ -1,5 +1,6 @@
 .footer {
   width: 100%;
+  color: #fff;
 }
 .footerContainer {
   margin-top: 12px;
@@ -26,7 +27,6 @@
   text-align: left;
   width: min-content;
   margin: 0;
-  /* color: greenyellow; */
 }
 .footerTop p {
   font-size: 1.7rem;

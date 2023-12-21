@@ -10,15 +10,12 @@
 
   color: #1a1a1a;
 
-  background: rgb(255, 255, 255);
-
   border-bottom: 1px solid transparent; /* Aplicar solo al borde inferior */
   border-image: linear-gradient(
       to right,
       rgba(37, 37, 37, 0),
-      rgba(44, 44, 44, 1) 36%,
-      rgba(48, 48, 48, 0.9444152661064426) 63%,
-      rgba(38, 38, 38, 0) 96%
+      rgba(44, 44, 44, 1) 50%,
+      rgba(38, 38, 38, 0) 100%
     )
     1;
   border-radius: 10px;
@@ -59,7 +56,7 @@
 }
 
 .featuredCard:hover .featuredCardImg {
-  box-shadow: 0 0 30px 10px #e6e6e6;
+  box-shadow: 0 0 20px 10px #1d1d1d13;
 }
 
 @media (max-width: 1000px) {
