@@ -126,27 +126,47 @@
   background-color: #1a1a1a;
 }
 
-@media screen and (max-width: 750px) {
-  .overlay {
-    background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
-  }
-
+@media screen and (max-width: 1030px) {
   .menu {
-    width: 100vw;
-    height: 65vh;
-    border-radius: 0;
-    padding: 0;
-    right: 0;
-    top: 0;
-    font-size: 16vw;
-    justify-content: center;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .left h1 {
+    font-size: 3.5rem;
+  }
+  .left p {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu {
+    height: 50vh;
+    width: auto;
+    position: fixed;
+    left: 12px;
+    top: 12px;
+    padding: 12px;
+    border-radius: 10px;
 
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      0deg,
-      rgba(66, 66, 66, 0) 0%,
-      rgb(0, 0, 0) 100%
-    );
+    font-size: 3rem;
+  }
+  .left {
+    height: 50vh;
+    width: 100%;
+    top: 40vh;
+    left: 12px;
+    padding: 12px;
+  }
+  .left h1 {
+    margin-left: 0;
+    font-size: 3rem;
+  }
+  .left p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  .social {
+    padding: 0;
   }
 }
