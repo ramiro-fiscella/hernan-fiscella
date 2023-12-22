@@ -131,3 +131,28 @@
 .businessText h2 {
   margin: 10px;
 }
+
+@media screen and (max-width: 750px) {
+  .workContainer {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 12px;
+  }
+  .workText {
+    width: 100%;
+    padding: 0;
+  }
+
+  .stylesContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .wedding {
+    width: 100%;
+  }
+  .business {
+    width: 100%;
+    margin-top: 16px;
+  }
+}
