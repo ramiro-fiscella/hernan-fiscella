@@ -36,8 +36,8 @@
   );
 
   z-index: 10000;
-  width: 60%;
-  height: 95vh;
+  width: 55%;
+  /* height: 100%; */
 
   border-radius: 0 10px 10px 0;
   padding: 12px;
@@ -46,6 +46,7 @@
   position: absolute;
   right: 12px;
   top: 12px;
+  bottom: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;

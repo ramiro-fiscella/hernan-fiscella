@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import style from "./Navbar.module.css";
 import { FaCamera } from "react-icons/fa";
 import Menu from "../Menu/Menu";
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <div className={style.container}>
       <div className={style.navbar}>
-        <a href="#">HF</a>
+        <Link to="/">HF</Link>
         <a className={style.menu} href="#" onClick={toggleMenu}>
           <FaCamera />
         </a>

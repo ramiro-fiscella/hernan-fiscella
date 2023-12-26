@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import style from "./WorkSections.module.css";
 
 const WorkSections = () => {
+  const navigate = useNavigate();
+
+  const handleCategoryClick = (category) => {
+    navigate(`/work/${category}`);
+  };
+
   return (
     <div className={style.workContainer}>
       <div className={style.workText}>
@@ -21,7 +28,10 @@ const WorkSections = () => {
       </div>
 
       <div className={style.stylesContainer}>
-        <div className={style.wedding}>
+        <div
+          className={style.wedding}
+          onClick={() => handleCategoryClick("wedding")}
+        >
           <div className={style.weddingImg}>
             <div className={style.weddingText}>
               <h2>WEDDING</h2>
@@ -30,7 +40,10 @@ const WorkSections = () => {
           </div>
         </div>
 
-        <div className={style.business}>
+        <div
+          className={style.business}
+          onClick={() => handleCategoryClick("business")}
+        >
           <div className={style.businessImg}>
             <div className={style.businessText}>
               <h2>BUSINESS</h2>
