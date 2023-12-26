@@ -103,7 +103,7 @@
     border-radius: 10px;
     margin: 12px;
     position: absolute;
-    bottom: 12px;
+    bottom: 0;
 
     align-items: start;
   }
