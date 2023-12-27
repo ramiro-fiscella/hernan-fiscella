@@ -1,5 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import style from "./Work.module.css";
 
 const Work = () => {
   const { category } = useParams();
@@ -7,8 +8,26 @@ const Work = () => {
   let content = null;
   if (category === "wedding") {
     content = (
-      <div>
-        <h2>Contenido de Bodas</h2>
+      <div className={style.landing}>
+        <div className={style.left}>
+          <h1>
+            WEDDING <br /> WORKS
+          </h1>
+          <p>by Hernan Fiscella</p>
+
+          <div className={style.social}>
+            <a target="_blank" href="https://www.instagram.com/">
+              Ig
+            </a>
+            <a target="_blank" href="https://www.facebook.com/">
+              Fb
+            </a>
+            <button className={style.downBtn}>View work</button>
+          </div>
+        </div>
+        <div className={style.right}></div>
+
+        <section></section>
       </div>
     );
   } else if (category === "business") {
@@ -19,12 +38,7 @@ const Work = () => {
     );
   }
 
-  return (
-    <div>
-      <h1>HERNAN FISCELLA</h1>
-      {content}
-    </div>
-  );
+  return <div>{content}</div>;
 };
 
 export default Work;
