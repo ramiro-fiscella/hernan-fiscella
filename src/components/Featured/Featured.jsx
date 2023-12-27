@@ -24,6 +24,7 @@ const Featured = () => {
           date={item.date}
           title={item.title}
           description={item.description}
+          image={item.image}
         />
       ))}
       <Link to="/" className={style.backBtn}>

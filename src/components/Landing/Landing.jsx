@@ -2,6 +2,11 @@ import React from "react";
 import style from "./Landing.module.css";
 
 const Landing = () => {
+  const handleWorkClick = (e) => {
+    e.preventDefault();
+    const work = document.getElementById("work-sections");
+    work.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div className={style.landing}>
       <div className={style.left}>
@@ -17,7 +22,10 @@ const Landing = () => {
           <a target="_blank" href="https://www.facebook.com/">
             Fb
           </a>
-          <button className={style.downBtn}>Visit Website</button>
+
+          <a onClick={handleWorkClick} className={style.downBtn}>
+            Visit Website
+          </a>
         </div>
       </div>
       <div className={style.right}></div>

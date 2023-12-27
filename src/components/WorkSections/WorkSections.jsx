@@ -10,7 +10,7 @@ const WorkSections = () => {
   };
 
   return (
-    <div className={style.workContainer}>
+    <div id="work-sections" className={style.workContainer}>
       <div className={style.workText}>
         <h1>WORK STYLES</h1>
         <p>

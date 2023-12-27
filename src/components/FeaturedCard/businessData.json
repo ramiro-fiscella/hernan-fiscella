@@ -4,34 +4,34 @@
     "date": "MARCH 10, 2022",
     "title": "Spring Collection Launch",
     "description": "A vibrant display of colors and styles marking the arrival of the spring collection.",
-    "image": "assets/fashion-spring-collection.jpg"
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c3ByaW5nJTIwcHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 2,
     "date": "APRIL 5, 2022",
     "title": "Fashion Week Showcase",
     "description": "An avant-garde runway show featuring innovative designs and emerging trends.",
-    "image": "assets/fashion-week-showcase.jpg"
+    "image": "https://images.unsplash.com/photo-1556304044-0699e31c6a34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGZhc2hpb24lMjB3ZWVrfGVufDB8fDB8fHww"
   },
   {
     "id": 3,
     "date": "MAY 20, 2022",
     "title": "Summer Glam Photoshoot",
     "description": "A glamorous photo session capturing the essence of summer fashion and elegance.",
-    "image": "assets/fashion-summer-glam.jpg"
+    "image": "https://images.unsplash.com/photo-1599137982947-ddacbe29cb6d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHN1bW1lciUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 4,
     "date": "JUNE 15, 2022",
     "title": "Fall Collection Preview",
     "description": "A sneak peek into the upcoming fall collection featuring cozy and chic attire.",
-    "image": "assets/fashion-fall-collection-preview.jpg"
+    "image": "https://images.unsplash.com/photo-1578632292335-df3abbb0d586?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFsbCUyMGZhc2hpb258ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 5,
     "date": "JULY 8, 2022",
     "title": "Winter Fashion Gala",
     "description": "An extravagant gala showcasing winter couture and sophisticated styles.",
-    "image": "assets/fashion-winter-gala.jpg"
+    "image": "https://images.unsplash.com/photo-1484021377774-82f0a0673843?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   }
 ]

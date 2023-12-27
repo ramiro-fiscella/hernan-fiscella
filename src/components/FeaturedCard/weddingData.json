@@ -4,34 +4,34 @@
     "date": "FEBRUARY 24, 2022",
     "title": "John & Sarah",
     "description": "A ceremony filled with love and laughter, celebrating the union of two souls.",
-    "image": "../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+    "image": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2VkZGluZ3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "id": 2,
     "date": "MARCH 15, 2022",
     "title": "Michael & Emily",
     "description": "A magical day full of unforgettable moments and eternal promises.",
-    "image": "../victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+    "image": "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 3,
     "date": "APRIL 5, 2022",
     "title": "Daniel & Sophia",
     "description": "An exciting journey starting with a 'yes' and promising a future together.",
-    "image": "/assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+    "image": "https://images.unsplash.com/photo-1607190074257-dd4b7af0309f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 4,
     "date": "MAY 20, 2022",
     "title": "Robert & Olivia",
     "description": "A dreamy day filled with love, laughter, and meaningful glances.",
-    "image": "../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+    "image": "https://images.unsplash.com/photo-1550784718-990c6de52adf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D"
   },
   {
     "id": 5,
     "date": "JUNE 10, 2022",
     "title": "William & Isabella",
     "description": "A moment of love and companionship at the start of a joint journey.",
-    "image": "../../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+    "image": "https://images.unsplash.com/photo-1509927083803-4bd519298ac4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D"
   }
 ]

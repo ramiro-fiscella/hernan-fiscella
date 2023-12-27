@@ -59,17 +59,21 @@
   background-color: #1a1a1a;
 }
 
-.downBtn {
-  background-color: #ffffff00;
+.social a:last-child {
+  background-color: #fff;
   color: #1a1a1a;
   margin: 0;
+  padding: 0 10px;
   border: solid 1px #1a1a1a;
   border-radius: 5px;
+  height: 34px;
+  cursor: pointer;
 }
-.downBtn:not(:hover) {
+
+.social a:last-child:not(:hover) {
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
 }
-.downBtn:hover {
+.social a:last-child:hover {
   background-color: #1a1a1a;
   outline: none;
   transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
