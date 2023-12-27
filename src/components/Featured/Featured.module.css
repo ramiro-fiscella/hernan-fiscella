@@ -1,6 +1,5 @@
 .featuredContainer {
   height: auto;
-  width: 98vw;
 
   display: flex;
   flex-direction: column;
@@ -12,9 +11,25 @@
     rgba(255, 255, 255, 0.944) 37%,
     rgb(240, 240, 240) 100%
   );
+  color: #1a1a1a;
 
   margin: 12px;
   margin-bottom: 0;
 
   border-radius: 10px;
+}
+.backBtn {
+  border-radius: 0 0 8px 8px;
+  background-color: #fff;
+  color: #1a1a1a;
+  height: 24px;
+  padding: 12px 0;
+}
+.backBtn:hover {
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.backBtn:not(:hover) {
+  transition: cubic-bezier(0.455, 0.03, 0.515, 0.955) 0.3s;
 }

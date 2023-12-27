@@ -28,6 +28,7 @@
   font-size: 4.2rem;
   margin: 200px 50px 0 50px;
   padding: 0;
+  line-height: 0.9;
 
   opacity: 1;
 }
@@ -102,6 +103,8 @@
     height: 35vh;
     border-radius: 10px;
     margin: 12px;
+    margin-bottom: 0;
+
     position: absolute;
     bottom: 0;
 
@@ -113,7 +116,7 @@
   }
   .left p {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .social {
     padding-left: 0;

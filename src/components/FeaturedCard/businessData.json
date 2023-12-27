@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date": "MARCH 10, 2022",
+    "title": "Spring Collection Launch",
+    "description": "A vibrant display of colors and styles marking the arrival of the spring collection.",
+    "image": "assets/fashion-spring-collection.jpg"
+  },
+  {
+    "id": 2,
+    "date": "APRIL 5, 2022",
+    "title": "Fashion Week Showcase",
+    "description": "An avant-garde runway show featuring innovative designs and emerging trends.",
+    "image": "assets/fashion-week-showcase.jpg"
+  },
+  {
+    "id": 3,
+    "date": "MAY 20, 2022",
+    "title": "Summer Glam Photoshoot",
+    "description": "A glamorous photo session capturing the essence of summer fashion and elegance.",
+    "image": "assets/fashion-summer-glam.jpg"
+  },
+  {
+    "id": 4,
+    "date": "JUNE 15, 2022",
+    "title": "Fall Collection Preview",
+    "description": "A sneak peek into the upcoming fall collection featuring cozy and chic attire.",
+    "image": "assets/fashion-fall-collection-preview.jpg"
+  },
+  {
+    "id": 5,
+    "date": "JULY 8, 2022",
+    "title": "Winter Fashion Gala",
+    "description": "An extravagant gala showcasing winter couture and sophisticated styles.",
+    "image": "assets/fashion-winter-gala.jpg"
+  }
+]

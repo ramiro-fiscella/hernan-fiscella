@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "date": "FEBRUARY 24, 2022",
+    "title": "John & Sarah",
+    "description": "A ceremony filled with love and laughter, celebrating the union of two souls.",
+    "image": "../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+  },
+  {
+    "id": 2,
+    "date": "MARCH 15, 2022",
+    "title": "Michael & Emily",
+    "description": "A magical day full of unforgettable moments and eternal promises.",
+    "image": "../victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+  },
+  {
+    "id": 3,
+    "date": "APRIL 5, 2022",
+    "title": "Daniel & Sophia",
+    "description": "An exciting journey starting with a 'yes' and promising a future together.",
+    "image": "/assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+  },
+  {
+    "id": 4,
+    "date": "MAY 20, 2022",
+    "title": "Robert & Olivia",
+    "description": "A dreamy day filled with love, laughter, and meaningful glances.",
+    "image": "../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+  },
+  {
+    "id": 5,
+    "date": "JUNE 10, 2022",
+    "title": "William & Isabella",
+    "description": "A moment of love and companionship at the start of a joint journey.",
+    "image": "../../assets/victoria-priessnitz-JFAPl7brL6U-unsplash.jpg"
+  }
+]
