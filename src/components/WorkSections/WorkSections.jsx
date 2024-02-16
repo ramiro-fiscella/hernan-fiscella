@@ -6,7 +6,7 @@ const WorkSections = () => {
   const navigate = useNavigate();
 
   const handleCategoryClick = (category) => {
-    navigate(`/work/${category}`);
+    navigate(`/${category}`);
   };
 
   return (

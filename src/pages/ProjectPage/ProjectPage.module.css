@@ -1,0 +1,27 @@
+.projectImg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.projectTitle {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  text-align: left;
+}
+.projectTitle h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin: 0;
+}
+.projectTitle h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  margin: 0;
+}
+.projectTitle p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+}

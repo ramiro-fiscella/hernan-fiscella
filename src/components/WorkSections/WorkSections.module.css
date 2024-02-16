@@ -21,7 +21,7 @@
 }
 .workText {
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 50px;
   width: 30%;
 }
@@ -79,7 +79,7 @@
   font-size: 2rem;
 }
 .weddingText p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2.5rem;
   margin: 10px;
 }
@@ -130,7 +130,7 @@
   font-size: 2rem;
 }
 .businessText p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 2.5rem;
   margin: 10px;
 }
@@ -138,6 +138,18 @@
   margin: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  .workContainer {
+    height: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 12px;
+  }
+  .workText {
+    width: 80%;
+    padding: 0;
+  }
+}
 @media screen and (max-width: 770px) {
   .workContainer {
     height: auto;

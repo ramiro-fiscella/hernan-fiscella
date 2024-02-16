@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import style from "./FeaturedCard.module.css";
 
-const FeaturedCard = ({ date, title, description, image }) => {
+const FeaturedCard = ({ id, category, date, title, description, image }) => {
   const cardStyle = {
     backgroundImage: `url(${image})`,
   };
@@ -40,7 +41,9 @@ const FeaturedCard = ({ date, title, description, image }) => {
         <h4 className={style.date}>{date}</h4>
         <h2>{title}</h2>
         <p>{description}</p>
-        <button className={style.workBtn}>View Work</button>
+        <Link to={`/${category}/${id}`} className={style.workBtn}>
+          View Work
+        </Link>
       </div>
     </div>
   );

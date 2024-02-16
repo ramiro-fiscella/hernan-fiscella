@@ -48,10 +48,10 @@ const Menu = ({ onClose }) => {
         <Link to="/" onClick={handleMenuClick}>
           Home
         </Link>
-        <Link to="/work/wedding" onClick={handleMenuClick}>
+        <Link to="/wedding" onClick={handleMenuClick}>
           Wedding
         </Link>
-        <Link to="/work/business" onClick={handleMenuClick}>
+        <Link to="/business" onClick={handleMenuClick}>
           Business
         </Link>
         <a href="#contact" onClick={handleContactClick}>
